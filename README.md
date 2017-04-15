@@ -70,9 +70,9 @@ When submitting code, please make every effort to follow existing conventions an
 
 ### Pre-requisites
 
-Android SDK 25
-Android Build Tools v25.0.2
-Android Support Repository
+* Android SDK 25
+* Android Build Tools v25.0.2
+* Android Support Repository
 
 ## License and third party libraries
 
