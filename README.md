@@ -1,6 +1,6 @@
 ## Virtual Joystick
 
-This is a very simple "view" inspired by the project [JoystickView](https://github.com/zerokol/JoystickView). This view provides a very simple and **ready-to-use** custom view which emulates a joystick for Android.
+This is a very simple and straight-forward implementation inspired by the project [JoystickView](https://github.com/zerokol/JoystickView). This repository provides a **ready-to-use** custom view which emulates a joystick for Android.
 
 ![Alt text](/images/virtual-joystick-activity.png?raw=true "Double Joystick with custom size and colors")
 
