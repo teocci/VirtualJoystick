@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <com.github.teocci.virtualjoystick.view.JoystickView
+        xmlns:custom="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/joystickView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        custom:JV_backgroundColor="#707070"
+        custom:JV_borderColor="#3e3e3e"
+        custom:JV_borderWidth="4dp"
+        custom:JV_buttonColor="#f2f200"
+        custom:JV_fixedCenter="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="@dimen/default_label_width"
+            android:layout_height="@dimen/default_element_height"
+            android:text="@string/angle_label"
+            android:layout_margin="5dp"
+            />
+
+        <TextView
+            android:id="@+id/angle_value"
+            android:layout_width="@dimen/default_value_width"
+            android:layout_height="@dimen/default_element_height"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical"
+            android:layout_margin="5dp"
+            android:singleLine="true"
+            android:text="@string/angle_default"
+            />
+
+        <TextView
+            android:layout_width="@dimen/default_label_width"
+            android:layout_height="@dimen/default_element_height"
+            android:text="@string/strength_label"
+            android:layout_margin="5dp"
+            />
+
+        <TextView
+            android:id="@+id/strength_value"
+            android:layout_width="@dimen/default_value_width"
+            android:layout_height="@dimen/default_element_height"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical"
+            android:layout_margin="5dp"
+            android:singleLine="true"
+            android:text="@string/strength_default"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="@dimen/default_label_width"
+            android:layout_height="@dimen/default_element_height"
+            android:text="@string/x_label"
+            android:layout_margin="5dp"
+            />
+
+        <TextView
+            android:id="@+id/x_value"
+            android:layout_width="@dimen/default_value_width"
+            android:layout_height="@dimen/default_element_height"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical"
+            android:layout_margin="5dp"
+            android:singleLine="true"
+            android:text="@string/x_default"
+            />
+
+        <TextView
+            android:layout_width="@dimen/default_label_width"
+            android:layout_height="@dimen/default_element_height"
+            android:text="@string/y_label"
+            android:layout_margin="5dp"
+            />
+
+        <TextView
+            android:id="@+id/y_value"
+            android:layout_width="@dimen/default_value_width"
+            android:layout_height="@dimen/default_element_height"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical"
+            android:layout_margin="5dp"
+            android:singleLine="true"
+            android:text="@string/y_default"
+            />
+    </LinearLayout>
+</LinearLayout>

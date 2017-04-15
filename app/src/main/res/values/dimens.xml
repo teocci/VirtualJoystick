@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_element_height">20dp</dimen>
+    <dimen name="default_label_width">120dp</dimen>
+    <dimen name="default_value_width">200dp</dimen>
+</resources>

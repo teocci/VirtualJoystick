@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Virtual Joystick</string>
+    <string name="angle_label">Angle: </string>
+    <string name="strength_label">Strength: </string>
+    <string name="x_label">X:</string>
+    <string name="y_label">Y:</string>
+    <string name="angle_default">0°</string>
+    <string name="strength_default">0%</string>
+    <string name="x_default">200</string>
+    <string name="y_default">200</string>
+</resources>
