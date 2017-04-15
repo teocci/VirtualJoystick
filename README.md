@@ -6,8 +6,7 @@ This is a very simple "view" inspired by the project [JoystickView](https://gith
 
 ### Disclaimer
 
-This repository contains sample code intended to demonstrate the capabilities of the MediaCodec API. It is not intended to be used as-is in applications as a library dependency, and will not be maintained as such. Bug fix contributions are welcome, but issues and feature requests will not be addressed.
-
+This repository contains sample code intended to demonstrate the capabilities a simple custom `View`. It is not intended to be used as-is in applications as a library dependency, and will not be maintained as such. Bug fix contributions are welcome, but issues and feature requests will not be addressed.
 
 ### Specifications
 
