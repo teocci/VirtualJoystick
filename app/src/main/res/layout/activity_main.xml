@@ -24,8 +24,9 @@
         <TextView
             android:layout_width="@dimen/default_label_width"
             android:layout_height="@dimen/default_element_height"
-            android:text="@string/angle_label"
             android:layout_margin="5dp"
+            android:text="@string/angle_label"
+            android:textStyle="bold"
             />
 
         <TextView
@@ -33,10 +34,18 @@
             android:layout_width="@dimen/default_value_width"
             android:layout_height="@dimen/default_element_height"
             android:layout_weight="1"
-            android:gravity="right|center_vertical"
+            android:gravity="end|center_vertical"
             android:layout_margin="5dp"
             android:singleLine="true"
             android:text="@string/angle_default"
+            />
+
+        <TextView
+            android:layout_width="5dp"
+            android:layout_height="@dimen/default_element_height"
+            android:text="@string/section_division"
+            android:layout_margin="5dp"
+            android:textStyle="bold"
             />
 
         <TextView
@@ -44,6 +53,7 @@
             android:layout_height="@dimen/default_element_height"
             android:text="@string/strength_label"
             android:layout_margin="5dp"
+            android:textStyle="bold"
             />
 
         <TextView
@@ -51,7 +61,7 @@
             android:layout_width="@dimen/default_value_width"
             android:layout_height="@dimen/default_element_height"
             android:layout_weight="1"
-            android:gravity="right|center_vertical"
+            android:gravity="end|center_vertical"
             android:layout_margin="5dp"
             android:singleLine="true"
             android:text="@string/strength_default"
@@ -69,6 +79,7 @@
             android:layout_height="@dimen/default_element_height"
             android:text="@string/x_label"
             android:layout_margin="5dp"
+            android:textStyle="bold"
             />
 
         <TextView
@@ -76,10 +87,18 @@
             android:layout_width="@dimen/default_value_width"
             android:layout_height="@dimen/default_element_height"
             android:layout_weight="1"
-            android:gravity="right|center_vertical"
+            android:gravity="end|center_vertical"
             android:layout_margin="5dp"
             android:singleLine="true"
             android:text="@string/x_default"
+            />
+
+        <TextView
+            android:layout_width="5dp"
+            android:layout_height="@dimen/default_element_height"
+            android:text="@string/section_division"
+            android:layout_margin="5dp"
+            android:textStyle="bold"
             />
 
         <TextView
@@ -87,6 +106,7 @@
             android:layout_height="@dimen/default_element_height"
             android:text="@string/y_label"
             android:layout_margin="5dp"
+            android:textStyle="bold"
             />
 
         <TextView
@@ -94,7 +114,7 @@
             android:layout_width="@dimen/default_value_width"
             android:layout_height="@dimen/default_element_height"
             android:layout_weight="1"
-            android:gravity="right|center_vertical"
+            android:gravity="end|center_vertical"
             android:layout_margin="5dp"
             android:singleLine="true"
             android:text="@string/y_default"

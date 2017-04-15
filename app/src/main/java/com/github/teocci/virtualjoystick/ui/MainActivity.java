@@ -48,9 +48,6 @@ public class MainActivity extends AppCompatActivity
                 final int y = CENTER_VALUE + rawY.intValue();
 
                 updateTextViews(angle, strength, x, y);
-
-
-                Log.e(TAG, "Angle: " + angle + " Strength: " + strength + "% rawX: " + rawX + " rawY: " + rawY + " x: " + x + " y: " + y);
             }
         }, LOOP_INTERVAL);
     }

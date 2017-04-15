@@ -8,4 +8,5 @@
     <string name="strength_default">0%</string>
     <string name="x_default">200</string>
     <string name="y_default">200</string>
+    <string name="section_division">|</string>
 </resources>
